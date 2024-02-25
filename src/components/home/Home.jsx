@@ -3,9 +3,9 @@ import { v4 as uuidv4 } from "uuid";
 
 //internal import
 import { useState } from "react";
-import NewTodo from "./NewTodo";
-import Todos from "./Todos";
-import style from "./home.module.css";
+import style from "../home/home.module.css";
+import NewTodo from "../newTodo/NewTodo";
+import Todos from "../todos/Todos";
 
 //code start
 const Home = () => {

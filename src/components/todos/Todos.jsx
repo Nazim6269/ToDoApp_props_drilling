@@ -1,5 +1,5 @@
 //internal import
-import Todo from "./Todo";
+import Todo from "../todo/Todo";
 import style from "./todos.module.css";
 
 //code start
