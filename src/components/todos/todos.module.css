@@ -1,9 +1,8 @@
 .todos {
   width: 70%;
-  background-color: #333;
+  background-color: #0a2136;
   color: #fff;
   padding: 0.5rem;
   border-radius: 0.6rem;
-  overflow: scroll;
   height: 60vh;
 }

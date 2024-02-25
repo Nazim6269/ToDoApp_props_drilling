@@ -1,9 +1,9 @@
 .container {
   flex-direction: column;
-  background-color: #444;
-  min-height: 100vh;
-  min-width: 700px;
+  background-color: #0f172a;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
 }

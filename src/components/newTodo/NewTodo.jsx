@@ -1,6 +1,7 @@
 //internal import
 import { useState } from "react";
 import style from "./newtodo.module.css";
+console.log(style);
 
 //code start
 const NewTodo = (props) => {
@@ -28,7 +29,9 @@ const NewTodo = (props) => {
   return (
     <form className={style.form} onSubmit={handleSubmit}>
       <div className={style["form-field"]}>
-        <label htmlFor="title">Title: </label>
+        <label htmlFor="title" className={style.caption}>
+          Title:{" "}
+        </label>
         <input
           type="text"
           name="title"
@@ -38,7 +41,9 @@ const NewTodo = (props) => {
         />
       </div>
       <div className={style["form-field"]}>
-        <label htmlFor="desc">Description: </label>
+        <label htmlFor="desc" className={style.desc}>
+          Description:{" "}
+        </label>
         <textarea
           type="text"
           name="desc"
@@ -47,7 +52,9 @@ const NewTodo = (props) => {
           onChange={handleChange}
         />
       </div>
-      <button type="submit">Add To Do</button>
+      <button type="submit" className={style.btn}>
+        Add To Do
+      </button>
     </form>
   );
 };

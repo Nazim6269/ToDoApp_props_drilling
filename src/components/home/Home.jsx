@@ -29,7 +29,9 @@ const Home = () => {
       <h1 style={{ color: "#fff" }}>To Do App</h1>
       <NewTodo onAddTodo={handleAddTodo} />
       <Todos todos={todos} onRemoveTodo={handleRemoveTodo} />
-      <h5>Copyright All right reserved by Nazimuddin</h5>
+      <h5 style={{ color: "#fff", marginTop: "1rem" }}>
+        &copy; Copyright All right reserved by Nazimuddin
+      </h5>
     </div>
   );
 };

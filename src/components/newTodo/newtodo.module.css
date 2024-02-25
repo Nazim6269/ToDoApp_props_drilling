@@ -1,6 +1,6 @@
 .form {
   width: 70%;
-  background-color: #333;
+  background-color: #0a2136;
   color: #fff;
   padding: 0.5rem;
   border-radius: 0.6rem;
@@ -20,6 +20,7 @@
   border: none;
   border-radius: 0.6rem;
   padding: 0.2rem;
+  border: none;
 }
 .form-field textarea {
   flex-basis: 80%;
@@ -36,7 +37,27 @@
   margin: 0 auto;
 }
 
-.form button:hover {
-  background-color: orange;
-  color: #fff;
+.caption {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #38bdf8;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.btn:hover {
+  border-color: #646cff;
 }

@@ -1,5 +1,5 @@
 .todo {
-  background-color: #222;
+  background-color: #0b1120;
   margin: 0.5rem;
   border-radius: 0.6rem;
   display: flex;
@@ -9,14 +9,8 @@
 }
 
 .todo:hover {
-  background-color: #111;
+  background-color: #0b1120;
 }
 .todo p {
   opacity: 0.6;
-}
-.btn {
-  border: none;
-  background-color: transparent;
-  color: #ff0000;
-  cursor: pointer;
 }
