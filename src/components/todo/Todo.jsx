@@ -22,6 +22,7 @@ const Todo = (props) => {
       >
         <i className="fa fa-trash fa-2x "></i>
       </button>
+      <p>{new Date().toJSON().slice(0, 10)}</p>
     </article>
   );
 };

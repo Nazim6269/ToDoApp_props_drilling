@@ -52,9 +52,7 @@ const NewTodo = (props) => {
           onChange={handleChange}
         />
       </div>
-      <button type="submit" className={style.btn}>
-        Add To Do
-      </button>
+      <button type="submit">Add To Do</button>
     </form>
   );
 };

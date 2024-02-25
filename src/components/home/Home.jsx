@@ -26,10 +26,25 @@ const Home = () => {
 
   return (
     <div className={style.container}>
-      <h1 style={{ color: "#fff" }}>To Do App</h1>
-      <NewTodo onAddTodo={handleAddTodo} />
-      <Todos todos={todos} onRemoveTodo={handleRemoveTodo} />
-      <h5 style={{ color: "#fff", marginTop: "1rem" }}>
+      <h1 style={{ color: "#8A98AE", marginBottom: "12px" }}>To Do App</h1>
+      {/* sub container */}
+      <div>
+        {/* New to do */}
+        <div className={style.newTodo}>
+          <h2 style={{ color: "#8A98AE", margin: "12px 0px" }}>
+            Save your To-Dos :{" "}
+          </h2>
+          <NewTodo onAddTodo={handleAddTodo} />
+        </div>
+        {/* Saved to dos */}
+        <div className={style.savedTodo}>
+          <h2 style={{ color: "#8A98AE", margin: "12px 0px" }}>
+            Your To-Dos :{" "}
+          </h2>
+          <Todos todos={todos} onRemoveTodo={handleRemoveTodo} />
+        </div>
+      </div>
+      <h5 style={{ color: "#8A98AE", marginTop: "1rem" }}>
         &copy; Copyright All right reserved by Nazimuddin
       </h5>
     </div>

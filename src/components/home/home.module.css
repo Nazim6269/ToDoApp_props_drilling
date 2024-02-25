@@ -1,9 +1,23 @@
 .container {
   flex-direction: column;
-  background-color: #0f172a;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 22%,
+    rgba(14, 14, 48, 1) 55%,
+    rgba(0, 212, 255, 1) 230%
+  );
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  /* width: 100vw;*/
   height: 100vh;
+  padding: 20px 0;
+}
+
+.newTodo {
+}
+.savedTodo {
+  display: flex;
+  flex-direction: column;
 }

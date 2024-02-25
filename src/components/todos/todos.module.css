@@ -3,6 +3,9 @@
   background-color: #0a2136;
   color: #fff;
   padding: 0.5rem;
-  border-radius: 0.6rem;
-  height: 60vh;
+  border-radius: 4px;
+  width: 50vw;
+  min-height: 10rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
