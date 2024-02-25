@@ -1,7 +1,6 @@
 //internal import
 import { useState } from "react";
 import style from "./newtodo.module.css";
-console.log(style);
 
 //code start
 const NewTodo = (props) => {

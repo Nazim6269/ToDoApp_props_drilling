@@ -5,7 +5,6 @@
   margin: 0.5rem;
   border-radius: 4px;
   display: grid;
-
   padding: 0.5rem;
 }
 
@@ -18,4 +17,14 @@
 }
 .todo p {
   opacity: 0.6;
+}
+
+.completed {
+  background-color: #12ab12;
+  width: 8rem;
+  height: 8rem;
+  margin: 0.5rem;
+  border-radius: 4px;
+  display: grid;
+  padding: 0.5rem;
 }

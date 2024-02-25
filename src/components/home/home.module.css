@@ -21,3 +21,22 @@
   display: flex;
   flex-direction: column;
 }
+
+.btnGroup {
+  display: flex;
+  gap: 1rem;
+  margin: 0 0 4px 0;
+}
+
+.btnGroup button {
+  padding: 7px 12px;
+  font-weight: 600;
+  background-color: rgb(2, 33, 36);
+  color: #fff;
+  border: none;
+}
+
+.visible {
+  color: #8a98ae;
+  margin: 5px 0;
+}
